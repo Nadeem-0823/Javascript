@@ -61,3 +61,14 @@
 // let stringNumber = String(n3)
 // console.log(stringNumber)
 // console.log(typeof stringNumber)
+
+
+//  let num = 450
+//  let convertStr = String(num)
+//  console.log(convertStr)
+//  console.log(typeof convertStr)
+
+//  let str = "Nadeem Abbas"
+//  let convertNum = Number(str)
+//  console.log(convertNum)
+//  console.log(typeof convertNum)
