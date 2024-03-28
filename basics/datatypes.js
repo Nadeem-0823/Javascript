@@ -22,3 +22,4 @@ typeof
 console.log(typeof names)
 console.log(typeof null)
 console.log(typeof undefined)
+console.log("Mobile App Developer")
