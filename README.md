@@ -1,2 +1,2 @@
-# demo-3
-This is demo 3 repo for code
+Javascript
+This Repo is for javascript practisse.
