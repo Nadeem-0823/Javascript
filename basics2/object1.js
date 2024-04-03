@@ -14,11 +14,14 @@ const JsUser = {
     LastLoginDays: ["Monday", "Tuesday"]
 }
 
-
-Object.freeze(JsUser) // freeze the object values so cannot be change
+JsUser.name = "Zeeshan"
+// Object.freeze(JsUser) // freeze the object values so cannot be change
 JsUser.age = 50 // overwrite age
 console.log(JsUser.email)
+console.log(JsUser.name)
 console.log(JsUser["position"])
 console.log(JsUser["full name"])
 console.log(JsUser[mySym]) // Here Symbol is print
 console.log(JsUser.age);
+
+
