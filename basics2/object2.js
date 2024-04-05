@@ -69,3 +69,19 @@ const tinderEntries = Object.entries(tinderUser3) // Not mostly used
 // console.log(tinderUser3.hasOwnProperty('id'));
 // console.log(tinderUser3.hasOwnProperty('address'))
 
+// Object De-structure
+const course = {
+    courseName: "Javascript",
+    price: 10000,
+    courseInstructor: "Nadeem"
+}
+
+// console.log(course.courseInstructor);
+
+// another way to do this
+const {courseInstructor: inst} = course // Thisis De-structuring
+// console.log(courseInstructor);
+// console.log(inst);
+
+
+
