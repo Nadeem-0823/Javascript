@@ -26,19 +26,31 @@ const results = addNum2(35000, 45000);
 
 // Ways to pass values in function
 
-function loginUser(userName){ 
-    
-    // // check that username entered or not
-    // // if(userName === undefined){   OR
-    //    if(!userName){  // empty string " " and undefined both are false values, we use also this code
-    //     console.log("Please enter a valid username");
-    //     return; // because of this next return statement not executed
-    
-    return `${userName} logged in`;
-}
+function logInUser(userName){
+        return `${userName} logged in`;
+    }
+// console.log(logInUser("Nadeem"));
 
-// console.log(loginUser("Nadeem"));
-// console.log(loginUser()); 
+// if no user pass as argument
+function logInUser2(userName2){
+    if(!userName2){
+        // console.log("Please enter a valid UserName");
+        return;
+    }
+return `${userName2} logged in`;
+}
+logInUser2();
+
+// Now combined these 2 codes
+function logInUser3(userName3){
+    if(!userName3){
+        // console.log("Please enter a valid UserName");
+        return;
+    }
+return `${userName3} logged in`;
+}
+// console.log(logInUser3());
+
 
 // *************************************************************************************
 
@@ -55,19 +67,36 @@ function showNum2(val1, val2, ...num2){
 
 // ***************************************************************************************************
 
-// function with objects
+// function with Objects
 
 const user = {
     userName: "Nadeem",
     id: 399
 }
 function handleObject(anyObject){
-console.log(`UserName is ${anyObject.userName} and id is ${anyObject.id}`);
+// console.log(`UserName is ${anyObject.userName} and id is ${anyObject.id}`);
 }
-// console.log(handleObject(user));
+handleObject(user);
 
 // another example, function with objects
 function handleObject2(anyObject2){
-console.log(`Company Name is ${anyObject2.company} and Price is ${anyObject2.price}`);
+// console.log(`Company Name is ${anyObject2.company} and Price is ${anyObject2.price}`);
 }
-console.log(handleObject2({company: "Care", price: 3000}));
+handleObject2({company: "Care", price: 3000});
+
+// *******************************************************************************
+
+// function with Arrays
+const myArray = [10, 20, 30, 40, 50];
+function showArray(arrayElem){
+return `${arrayElem} are elements of Array`;
+}
+console.log(showArray(myArray));
+
+// Another way, function with Arrays
+
+function showArray2(arrayElem2){
+    // return `${arrayElem2} are elements of Array`;
+    return arrayElem2[2];
+}
+console.log(showArray2([100, 200, 300, 500, 600]));
