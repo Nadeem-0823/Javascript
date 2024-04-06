@@ -22,14 +22,16 @@ const results = addNum2(35000, 45000);
 
 // Ways to pass values in function
 
-function loginUser(userName = "Guest"){ // Guest executed when no username is passed
-    // check that username entered or not
-    // if(userName === undefined){
-       if(!userName){  // empty string " " and undefined both are false values, we use also this code
-        console.log("Please enter a valid username");
-        return; // because of this next return statement not executed
-    }
+function loginUser(userName){ 
+    
+    // // check that username entered or not
+    // // if(userName === undefined){   OR
+    //    if(!userName){  // empty string " " and undefined both are false values, we use also this code
+    //     console.log("Please enter a valid username");
+    //     return; // because of this next return statement not executed
+    
     return `${userName} logged in`;
 }
-// console.log(loginUser("Nadeem"));
-console.log(loginUser()); 
+
+console.log(loginUser("Nadeem"));
+// console.log(loginUser()); 
