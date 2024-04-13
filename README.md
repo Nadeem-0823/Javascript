@@ -19,3 +19,9 @@ console.log("Object is empty");
 false == 0 //true
 false == "" //true
 0 == "" //true
+
+****Nullish Coalescing Operator (??)*****
+
+let val1 = null ?? 10 // assign a value 10 otherwise assign null
+
+let val2 = undefined ?? 15 // assign a value 15 otherwise assign undefined
