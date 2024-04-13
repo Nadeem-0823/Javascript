@@ -1,8 +1,6 @@
-Javascript
-My name is Nadeem Abbas.
-I am working as IT teacher.
-I am interested in Mobile App Development.
-I am practicing in Javascript.
-After that i will practice of Javascript bacend using node.js, express.js, mongoDB and mongoose.
-Then i will practice in React Native.
-AT last i practice of a full fledge Mobile App.
+*****Javascript Falsey Values*****
+false, 0, -0, "", null, undefined, NaN, BigInt 0n
+
+*****Javascript Truthy Values*****
+"0", "false", " ", [], {}, function(){}
+
