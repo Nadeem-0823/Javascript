@@ -8,3 +8,9 @@ false, 0, -0, "", null, undefined, NaN, BigInt 0n
 if(myArr.Length ===0){
 console.log("Array is Empty")
 }
+
+*****Check Empty Object*****
+const emptyObj = {}
+if(Object.keys(emptyObj).Length === 0) {
+console.log("Object is empty");
+}
