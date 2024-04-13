@@ -14,3 +14,8 @@ const emptyObj = {}
 if(Object.keys(emptyObj).Length === 0) {
 console.log("Object is empty");
 }
+
+*****Important Points*****
+false == 0 //true
+false == "" //true
+0 == "" //true
